@@ -1,0 +1,65 @@
+body {
+  background: url(svg/background2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Arima Madurai', cursive;
+}
+
+.navbar-light .navbar-nav .nav-link {
+
+    padding-right: 2rem;
+}
+
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar {
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.navbar-brand {
+
+    padding-left: 1rem;
+
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #8322c5;
+    border-color: #8322c5;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #b466f2;
+    border-color: #b466f2;
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #b466f2;
+    border-color: #b466f2;
+
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    color: #8322c5;
+    text-decoration: underline;
+}
